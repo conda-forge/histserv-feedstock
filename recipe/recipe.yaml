@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.10"
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: histserv
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/histserv/histserv-${{ version }}.tar.gz
-  sha256: f8fcfdcaf6b5cea216ca2ca7eb49009809c324af534212be9c4a095d082e234a
+  sha256: d4606ea2b1080f48ef33cf1603d383f7b7066ec2055ff5e93a0dc40400768712
 
 build:
   number: 0
